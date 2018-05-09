@@ -3,8 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/robotcode.iml" filepath="$PROJECT_DIR$/robotcode.iml" />
+      <module fileurl="file://C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\app\app.iml" filepath="C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robocode.iml" filepath="$PROJECT_DIR$/robocode.iml" />
+      <module fileurl="file://C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\robotcode.iml" filepath="C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\robotcode.iml" />
       <module fileurl="file://$PROJECT_DIR$/uoalbert/uoalbert.iml" filepath="$PROJECT_DIR$/uoalbert/uoalbert.iml" />
+      <module fileurl="file://C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\uoalbert\uoalbert.iml" filepath="C:\Users\minjeong\Desktop\minjeong\취업\로봇\SK로봇프로젝트\robocode\uoalbert\uoalbert.iml" />
     </modules>
   </component>
 </project>
