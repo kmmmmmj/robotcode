@@ -16,6 +16,22 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="HINT" />
+
+        <TextView
+            android:id="@+id/textview_queestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:text = "어느 나라의 국기일까요?"
+            android:layout_below="@id/button_hint"/>
+
+        <ImageView
+            android:id="@+id/imageview_nationflag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview_queestion"
+            android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 
     <LinearLayout
