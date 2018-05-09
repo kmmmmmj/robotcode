@@ -17,12 +17,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_centerHorizontal="true"
+            android:textSize="30sp"
             android:text="정답은 무엇일까요?" />
 
         <Button
             android:id="@+id/button_answer1"
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="230dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:onClick="onClick"
@@ -31,7 +32,7 @@
         <Button
             android:id="@+id/button_answer2"
             android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_height="230dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="20dp"
