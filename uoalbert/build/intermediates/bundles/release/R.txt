@@ -1,0 +1,1 @@
+int string roboid_library_version 0x7f150001
