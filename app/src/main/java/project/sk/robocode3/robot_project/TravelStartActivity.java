@@ -83,7 +83,7 @@ public class TravelStartActivity extends RobotActivity {
         button_move_down = (Button)findViewById(R.id.button_move_down);
         button_move_left = (Button)findViewById(R.id.button_move_left);
         button_move_right = (Button)findViewById(R.id.button_move_right);
-        button_submit = (Button)findViewById(R.id.button_submit);
+        button_submit = (Button)findViewById(R.id.button_finish);
 
         button_move_up.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -164,6 +164,7 @@ public class TravelStartActivity extends RobotActivity {
                             if(popupWindow_correct.isShowing()){
                                 popupWindow_correct.dismiss();
                                 Intent intent =  new Intent(getApplicationContext(), QuizActivity.class);
+                                intent.putExtra("index",index);
                                 startActivity(intent);
                             }
                         }

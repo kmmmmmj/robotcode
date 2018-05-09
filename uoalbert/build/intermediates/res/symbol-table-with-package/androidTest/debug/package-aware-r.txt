@@ -1,2 +1,0 @@
-org.smartrobot.android.ble.test
-int string roboid_library_version 0x7f010000
