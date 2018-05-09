@@ -2,21 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+
+    >
 
     <Button
         android:id="@+id/button_start_game"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="295dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="bottom|left|fill_horizontal"
         android:onClick="onClick"
-        android:text="시작"/>
+        android:text="시작" />
 
     <Button
         android:id="@+id/button_exit_app"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="295dp"
+        android:layout_height="87dp"
+        android:layout_gravity="bottom|right|fill_horizontal"
         android:onClick="onClick"
-        android:text="종료"/>
+        android:text="종료" />
 
 </LinearLayout>
 

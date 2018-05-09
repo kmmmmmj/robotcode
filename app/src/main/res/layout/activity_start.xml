@@ -2,28 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    >
 
     <Button
         android:id="@+id/button_choose_nation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="195dp"
+        android:layout_height="290dp"
+        android:layout_gravity="center|left|fill_horizontal"
         android:onClick="onClick"
-        android:text="여행지 선택"/>
+        android:text="여행지 선택" />
 
     <Button
         android:id="@+id/button_start_travel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="195dp"
+        android:layout_height="290dp"
+        android:layout_gravity="center"
         android:onClick="onClick"
-        android:text="여행 시작하기"/>
+        android:text="여행 시작하기" />
 
     <Button
         android:id="@+id/button_study"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="195dp"
+        android:layout_height="290dp"
+        android:layout_gravity="center|right|fill_horizontal"
         android:onClick="onClick"
-        android:text="국기 공부하기"/>
+        android:text="국기 공부하기" />
 
 
 </LinearLayout>
