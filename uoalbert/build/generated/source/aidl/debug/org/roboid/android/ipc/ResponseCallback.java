@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Users\\minjeong\\Documents\\RobotTeam3\\robotcode\\uoalbert\\src\\main\\aidl\\org\\roboid\\android\\ipc\\ResponseCallback.aidl
+ * Original file: C:\\Users\\Public\\github\\robotcode\\uoalbert\\src\\main\\aidl\\org\\roboid\\android\\ipc\\ResponseCallback.aidl
  */
 package org.roboid.android.ipc;
 /**
