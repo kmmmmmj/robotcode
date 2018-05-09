@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
-
- <TextView
-     android:id="@+id/Textview_quiz"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:text="퀴즈문제내용~맞춰봐용"/>
-
-     <Button
-         android:id="@+id/button_answer1"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="A"/>
-
-    <Button
-        android:id="@+id/button_answer2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="B"/>
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
 
 
+    <RelativeLayout
+        android:id="@+id/lay_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/Textview_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:text="정답은 무엇일까요?" />
+
+        <Button
+            android:id="@+id/button_answer1"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:onClick="onClick"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/button_answer2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+            android:text="B" />
+    </RelativeLayout>
 </LinearLayout>

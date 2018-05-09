@@ -10,8 +10,6 @@
         android:id="@+id/button_start_game"
         android:layout_width="295dp"
         android:layout_height="87dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:layout_gravity="bottom|left|fill_horizontal"
         android:onClick="onClick"
         android:text="시작" />
