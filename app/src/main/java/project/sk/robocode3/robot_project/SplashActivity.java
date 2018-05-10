@@ -32,9 +32,11 @@ public class SplashActivity extends AppCompatActivity {
         finish();
 
         //나라객체초기화
+        /*
         for(int i = 0;i<name.length;i++){
             CommonObject.nation[i] = new NationObject(i,this.name[i],this.dae[i],this.cho[i],this.oid[i],this.color[i],this.flag[i]);
         }
+        */
     }
 
 }
