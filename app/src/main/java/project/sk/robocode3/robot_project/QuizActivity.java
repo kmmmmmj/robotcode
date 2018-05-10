@@ -68,7 +68,7 @@ public class QuizActivity extends RobotActivity implements View.OnClickListener 
 
 
         Random r = new Random();
-        answer = r.nextInt(1)+1;
+        answer = r.nextInt(2)+1;
         int another_answer;
         while(true){
             another_answer = r.nextInt(nation_name.length);

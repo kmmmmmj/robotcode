@@ -27,11 +27,22 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape" />
-        <activity android:name=".StartActivity" android:screenOrientation="landscape" />
-        <activity android:name=".StudyActivity" android:screenOrientation="landscape" />
-        <activity android:name=".TravelStartActivity" android:screenOrientation="landscape" />
-        <activity android:name=".SelectActivity" android:screenOrientation="landscape" />
-        <activity android:name=".QuizActivity" android:screenOrientation="landscape"/>
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StudyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TravelStartActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SelectActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".QuizActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".TempActivity"></activity>
     </application>
 
 </manifest>

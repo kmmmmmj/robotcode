@@ -36,6 +36,7 @@ public class TravelStartActivity extends RobotActivity {
     private View popupView_correct,popupView_incorrect;
     private PopupWindow popupWindow_correct,popupWindow_incorrect;
     public int red=0,green=0,blue=0;
+    public Handler mHandler;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +54,7 @@ public class TravelStartActivity extends RobotActivity {
         CommonObject.mRightEyeDevice = robot.findDeviceById(UoAlbert.RIGHT_EYE);
         CommonObject.mBuzzerDevice = robot.findDeviceById(UoAlbert.BUZZER);
 
+
         th = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -68,7 +70,9 @@ public class TravelStartActivity extends RobotActivity {
                 }
             }
         });
+
         th.start();
+
 
 
         popupView_correct = getLayoutInflater().inflate(R.layout.popup_correct, null);
@@ -76,7 +80,6 @@ public class TravelStartActivity extends RobotActivity {
 
         popupView_incorrect = getLayoutInflater().inflate(R.layout.popup_incorrect, null);
         popupWindow_incorrect = new PopupWindow(popupView_incorrect, RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT,true);
-
 
         button_move_up = (Button)findViewById(R.id.button_move_up);
         button_move_down = (Button)findViewById(R.id.button_move_down);

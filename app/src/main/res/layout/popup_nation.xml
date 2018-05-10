@@ -10,21 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/button_go_home"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="x"
-            android:layout_alignRight="@+id/popup_boarder"
-            android:layout_marginTop="20dp"/>
-
         <LinearLayout
             android:id="@+id/popup_boarder"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="60dp"
             android:background="@color/colorWhite"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="20dp">
 
             <ImageView
                 android:id="@+id/nation_flag_img"
@@ -37,18 +30,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="center_vertical">
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:padding="20dp">
 
                 <TextView
-                    android:id="@+id/textview_content"
+                    android:id="@+id/textview_nation_name"
+                    android:textSize="30sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="나라 내용"/>
+                    android:text="국가"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/textview_capital"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="수도"/>
+
 
             </LinearLayout>
 
 
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/button_go_home"
+            android:padding="20dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/x_mark"
+            android:layout_alignRight="@+id/popup_boarder"
+            android:layout_alignTop="@+id/popup_boarder"/>
 
     </RelativeLayout>
 </LinearLayout>
