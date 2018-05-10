@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:orientation="horizontal"
     android:background="@drawable/start"
-
-    >
+    android:scaleType="centerCrop"    >
 
     <LinearLayout
         android:layout_gravity="bottom"

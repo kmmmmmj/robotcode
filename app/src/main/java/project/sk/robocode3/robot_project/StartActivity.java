@@ -32,7 +32,7 @@ public class StartActivity extends RobotActivity implements View.OnClickListener
             case R.id.button_start_travel :
                 intent = new Intent(getApplicationContext(), TravelStartActivity.class);
                 Random r = new Random();
-                int index = r.nextInt(nation_name.length-1);
+                int index = r.nextInt(nation_name.length);
                 intent.putExtra("index",index);
                 startActivity(intent);
                 break;

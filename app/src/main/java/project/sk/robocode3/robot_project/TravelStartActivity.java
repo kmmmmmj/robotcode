@@ -29,7 +29,7 @@ import static project.sk.robocode3.robot_project.CommonObject.robot;
 public class TravelStartActivity extends RobotActivity {
 
     private int index;
-    private Thread th,th2,th3,th4;
+    private Thread th;
     private Button button_move_up,button_move_down,button_move_left,button_move_right,button_submit;
     private ImageView imageview_nationflag;
     public int frontOID;
