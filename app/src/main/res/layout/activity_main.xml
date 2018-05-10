@@ -3,26 +3,40 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="horizontal"
+    android:background="@drawable/start"
+    android:scaleType="centerCrop"    >
 
-    android:layout_marginBottom="60dp"
-    >
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
 
     <Button
         android:id="@+id/button_start_game"
-        android:layout_width="270dp"
-        android:layout_height="87dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="bottom|left|fill_horizontal"
-        android:layout_marginLeft="20dp"
         android:onClick="onClick"
-        android:text="시작" />
+        android:background="#00000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="시  작" />
 
     <Button
         android:id="@+id/button_exit_app"
-        android:layout_width="270dp"
-        android:layout_height="87dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="bottom|right|fill_horizontal"
         android:onClick="onClick"
-        android:text="종료" />
+        android:background="#00000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text="종  료" />
+    </LinearLayout>
 
 </LinearLayout>
 

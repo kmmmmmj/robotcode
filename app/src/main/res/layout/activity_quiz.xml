@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:padding="30dp">
 
 
     <RelativeLayout
@@ -10,33 +11,45 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        >
+        android:gravity="center_vertical">
+
         <TextView
             android:id="@+id/Textview_quiz"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
             android:layout_centerHorizontal="true"
             android:textSize="30sp"
+            android:layout_marginBottom="10dp"
             android:text="정답은 무엇일까요?" />
 
-        <Button
-            android:id="@+id/button_answer1"
-            android:layout_width="250dp"
-            android:layout_height="230dp"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
-            android:onClick="onClick"
-            android:text="A" />
+        <LinearLayout
+            android:layout_below="@+id/Textview_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
-        <Button
-            android:id="@+id/button_answer2"
-            android:layout_width="250dp"
-            android:layout_height="230dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="20dp"
-            android:onClick="onClick"
-            android:text="B" />
+
+            <ImageButton
+                android:id="@+id/button_answer1"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:onClick="onClick" />
+
+            <ImageButton
+                android:id="@+id/button_answer2"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
     </RelativeLayout>
 </LinearLayout>

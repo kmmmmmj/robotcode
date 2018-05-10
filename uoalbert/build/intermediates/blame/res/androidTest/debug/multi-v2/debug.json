@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\minjeong\\Documents\\RobotTeam3\\robotcode\\uoalbert\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "outputFile": "C:\\Users\\minjeong\\Desktop\\minjeong\\RobotSW\\SKproject\\robocode\\uoalbert\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\minjeong\\Documents\\RobotTeam3\\robotcode\\uoalbert\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "source": "C:\\Users\\minjeong\\Desktop\\minjeong\\RobotSW\\SKproject\\robocode\\uoalbert\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
